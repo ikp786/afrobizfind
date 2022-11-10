@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*.container {
+  max-width: 960px;
+}
+*/
+.pricing-header {
+  max-width: 800px;
+}
+
+/*.card-deck .card {
+  min-width: 220px;
+}
+*/
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lead {
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+.display-a-a {
+	font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.heading-2 {
+	font-size: 18px;
+}
+
+.pmb-0
+{
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+p.pclass {
+    margin-bottom: 2px;
+}

@@ -1,0 +1,181 @@
+.nolpadding{
+	padding-left: 0px;
+}
+.norpadding{
+	padding-right: 0px;
+}
+.nobtlradios{
+	 border-top-left-radius:0px
+}
+.nobtrradios{
+	 border-top-right-radius:0px
+}
+
+
+.invitation-wrap h4{
+	margin:0!important;
+}
+.fullwidth{
+	width: 100%;
+}
+.box-shadow{
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.41);
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>span {
+    padding: 0;
+    margin: 0px;
+    color: #444444;
+    font-size: 15px;
+    position: relative;
+    /*font-weight: bold;*/
+    white-space: normal;
+}
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a> small	 {
+    float: right;
+    color:#000;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a button {
+    padding: 2px 12px;
+}
+
+
+
+.pointer:hover{
+	cursor: pointer;
+}
+/*chat css*/
+
+.chatbox{
+	border-right: 1.5px solid #9d9d9d;
+	min-height: 80vh;
+}
+.chatbox .overlay{
+	text-align: center;
+	padding: 15%;
+	    background: #fff;
+}
+.chatbox .nomessage{
+	text-align: center;
+	padding: 15%;
+	    background: #fff;
+}
+/*.chatbox .direct-chat-messages{
+	min-height: 60vh;
+    padding: 25px 20px;
+}*/
+
+.direct-chat-msg .direct-chat-timestamp{
+	float: right;
+}
+.direct-chat-msg .direct-chat-name{
+	float: left;
+}
+
+
+.direct-chat-msg.right .direct-chat-timestamp{
+	float: left;
+}
+.direct-chat-msg.right .direct-chat-name{
+	float: right;
+}
+
+.user-image{
+	width: 30px;
+	height: 30px;
+}
+/*.sameheight-row {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+/*.sameheight-row .col-md-9,
+.sameheight-row .col-md-3{
+	height: 100%;
+}
+*/
+/*.sameheight-row .sameheight-col{
+	height: 100%;
+}*/
+
+.navbar-horizontal ul{
+	width: 100%
+}
+
+.navbar-horizontal .nav li{ 
+	    float: none !important;
+	
+}
+.sidebar-menu li.header{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 0px; 
+}
+
+.sidebar-menu>li>a {
+    /* padding: 12px 5px 4px 15px; */
+    display: block;
+    padding: 7px 18px;
+}
+
+.sidebar-user .imagecover{
+	position: relative;
+}
+.sidebar-user .isOnline{
+	display: none;
+	position: absolute;
+	left: -5px;
+	top: -4px;
+}
+.sidebar-user .isOnline.online{
+	color: #3c763d;
+	display: block;
+}
+
+.secondbox a.nevitem{
+	font-size: 16px; 
+
+}
+.secondbox .fa{
+	font-size: 18px; 
+
+}
+
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*sidebar*/
+/*.sidebar-menu {
+    overflow: visible;
+}
+.sidebar-menu .header {
+ 	overflow: visible!important;
+}
+*/
+
+.hideshowdiv {
+	display: none;
+}
+.hideshowdiv.show {
+	display: block;
+}
+.sidebar-menu .header .contollers{
+	float: right;
+}
+.contollers i.dropdown-toggle{
+
+}
+
+
+@media (min-width: 991px) {
+	.nolpadding{
+		padding-left: unset;
+	}
+	.norpadding{
+		padding-right: unset;
+	}
+}
